@@ -9,4 +9,4 @@ issues_url 'https://github.com/MelonSmasher/chef_windows_tasks/issues' if respon
 source_url 'https://github.com/MelonSmasher/chef_windows_tasks' if respond_to?(:source_url)
 supports 'windows'
 depends 'windows', '~> 2.1.1'
-chef_version     '>= 12.1' if respond_to?(:chef_version)
+chef_version '>= 12.1' if respond_to?(:chef_version)

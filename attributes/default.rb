@@ -1,1 +1,1 @@
-default['windows_tasks']['tasks'] = []
+default['windows_tasks']['ignore_failures'] = false
