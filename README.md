@@ -1,4 +1,6 @@
-# windows_tasks
+# Windows Tasks
 
-TODO: Enter the cookbook description here.
+Manage Windows scheduled tasks through attributes.
+
+---
 
