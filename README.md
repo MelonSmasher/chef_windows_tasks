@@ -68,7 +68,7 @@ node['windows_tasks']['tasks'] = [
       "action" => 'delete'
     ],
     "chef-client" => [
-      "ignore_failures" => false,
+      "ignore_failures" => false, # Overriding the global settings set earlier
       "user" => "Administrator",
       "password" => "$ecR3t",
       "cwd" => "C:\\chef\\bin",

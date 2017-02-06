@@ -7,7 +7,7 @@ def manage_task(
     task,
     action_option,
     task_name_option,
-    force_option = nil,
+    force_option,
     command_option,
     cwd_option,
     user_option,
@@ -17,7 +17,7 @@ def manage_task(
     frequency_mod_option,
     start_day_option,
     start_time_option,
-    interactive_option = nil,
+    interactive_option,
     day_option,
     months_option,
     idle_time_option
